@@ -19,5 +19,5 @@ jobs:
         java-version: 1.8
     - name: Run tests
       run: |
-        cd 2-collectors/scala-stream-collector
+        cd 2-collectors/stream-collector
         sbt "project kafka" assembly
